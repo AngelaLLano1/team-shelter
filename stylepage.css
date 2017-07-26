@@ -1,0 +1,218 @@
+  @import url('https://fonts.googleapis.com/css?family=Glass+Antiqua');
+  @import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300');
+  @import url('https://fonts.googleapis.com/css?family=Lemonada|Open+Sans+Condensed:300');
+  @import url('https://fonts.googleapis.com/css?family=Passion+One');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #FAFBFB;
+}
+
+/*This class centers child elements horizontally*/
+
+.across {
+    justify-content: center;
+}
+
+/*This class centers child elements vertically*/
+
+.middle {
+    align-items: center;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    top: ;
+    right: 0;
+    left: 0;
+    background-color: #733C48;
+}
+
+.title, .logo {
+    display: flex;
+}
+
+.sub-nav {
+    display: flex;
+}
+
+.nav-items {
+    margin: 0 70px;
+}
+
+ .title, .sub-nav, .nav-items,  a {
+    color: white;
+    letter-spacing: 5px;
+    text-decoration: none;
+    font-size: 25px;
+    font-family: 'Open Sans Condensed';
+}
+
+.title {
+    margin-left: 50px;
+}
+
+.logo {
+    margin-right: 50px;
+}
+
+.hero {
+    display: flex;
+    height: 800px;
+    background-size: cover;
+    background-image: url(images/dogandwomanonfloor.jpeg);
+    justify-content: flex-end;
+    margin-bottom: 30px;
+}
+
+.quote {
+    display: flex;
+    width: 200px;
+    margin-right: 50px;
+    font-family: 'Glass Antiqua', cursive;
+    font-size: 35px;
+    color: #414561;
+    border-top: 4px solid black;
+    border-bottom: 4px solid black;
+}
+
+span {
+    background-color: #ad1a21;
+    color: #160101;
+    padding: 0 3px 0 3px;
+}
+
+.top-section {
+    display: flex;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.top-section div {
+    width: 50%;
+    padding: 5px;
+}
+
+.top-section .right-gallery {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.top-section .left-card {
+    width: 49.7%;
+    padding: 6px;
+}
+
+ /*The "grow" class enlarges the divs with images of the animals*/
+ 
+.grow:hover img {
+  -moz-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+  -moz-transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  box-shadow: 5px 5px 3px #888888;
+  cursor: pointer;
+}
+
+img {
+    width: 100%;
+}
+
+.bottom-section {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.testimonial-card {
+    display: flex;
+    width: 80%;
+	padding:10px;
+}
+
+.testimonial {
+    margin:50px;
+	padding:10px;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 30px;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tag {
+    font-size:  25px;
+    margin: 5px 0 0 0;
+    padding: 5px;
+    background-color: red;
+    font-family: 'Passion One', cursive;
+}
+
+.card-text {
+    display: flex;
+}
+
+.card-text li {
+    padding: 10px;
+    font-family: 'Open Sans Condensed';
+    font-size: 20px;
+}
+
+
+.adopt-card {
+    display: flex;
+    width: calc(20%);
+    flex-direction: column;
+    margin: 10px;
+}
+
+div .tag {
+    text-align: center;
+}
+
+footer {
+    display: flex;
+    background-color: #733C48;
+    font-size: 30px;
+    font-family: 'Open Sans Condensed';
+    justify-content: space-between;
+}
+
+.site-wrapper {
+    display: flex;
+}
+
+
+.site-map {
+    display: flex;
+    width: calc(100% - 440px);
+    flex-direction: column;
+}
+
+.site {
+    border-bottom: 1px solid #000;
+    padding: 10px 50px 10px 50px;
+    margin: 20px;
+}
+
+.site a {
+    color: #02020B;
+}
+
+.nav-items a:hover {
+    color: #8AF3FF;
+}
+
+
+
